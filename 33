@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace laba_20_21
+{
+    class Program
+    {
+
+        static void Main()
+        {
+            string str3 = "123456789";
+            for (int i = str3.Length; i > 0; i--)
+            {
+                if (i % 3 == 0)
+                {
+                    str3 = str3.Insert(i, " ");
+
+                }
+
+
+            }
+
+            Console.WriteLine(str3);
+            Console.ReadLine();
+        }
+    }
+}
