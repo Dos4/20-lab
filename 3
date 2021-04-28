@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace laba_20_21
+{
+    class Program
+    {
+
+        static void Main()
+        {
+            string str = String.Empty;
+            for (int i = 0; i < 10; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    str += "a";
+                }
+                else
+                {
+                    str += "1";
+                }
+            }
+            Console.WriteLine(str);
+            Console.ReadLine();
+        }
+    }
+}
